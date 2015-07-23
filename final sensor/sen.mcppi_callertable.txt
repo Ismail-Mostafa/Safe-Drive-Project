@@ -1,0 +1,6 @@
+main
+	UART1_Init
+	delay_debounce
+	countpulse
+		delay_debounce
+	UART1_Write

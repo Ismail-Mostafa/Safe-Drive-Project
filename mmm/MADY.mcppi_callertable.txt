@@ -1,0 +1,22 @@
+main
+	__CC2DW
+		____DoICP
+	UART1_Init
+	UART1_Write_Text
+		UART1_Write
+	initrit
+		ultra1
+	forward
+		ultra3
+		IntToStr
+			WordToStr
+				Div_16x16_U
+		UART1_Write_Text
+			UART1_Write
+	trnlft
+		ultra2
+		IntToStr
+			WordToStr
+				Div_16x16_U
+		UART1_Write_Text
+			UART1_Write
